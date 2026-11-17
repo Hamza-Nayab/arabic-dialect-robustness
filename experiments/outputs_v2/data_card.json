@@ -1,0 +1,121 @@
+{
+  "raw_total": 5207,
+  "unique_normalized_total": 5089,
+  "duplicates_or_leaks_removed": 118,
+  "raw_cross_split_leak_texts": 44,
+  "train_4_total": 3436,
+  "dev_4_total": 607,
+  "test_4_total": 1025,
+  "test_maghrebi_total": 21,
+  "lodo_train_sizes": {
+    "MSA": 1531,
+    "Egyptian": 2328,
+    "Levantine": 3197,
+    "Gulf": 3252
+  },
+  "n_lodo_matched": 1531,
+  "splits_by_dialect": {
+    "train": {
+      "Egyptian": {
+        "total": 1108,
+        "neg": 788,
+        "pos": 320,
+        "neg_rate": 0.7112,
+        "sarcasm_rate": 0.4477
+      },
+      "Gulf": {
+        "total": 184,
+        "neg": 119,
+        "pos": 65,
+        "neg_rate": 0.6467,
+        "sarcasm_rate": 0.3207
+      },
+      "Levantine": {
+        "total": 239,
+        "neg": 150,
+        "pos": 89,
+        "neg_rate": 0.6276,
+        "sarcasm_rate": 0.2887
+      },
+      "MSA": {
+        "total": 1905,
+        "neg": 1257,
+        "pos": 648,
+        "neg_rate": 0.6598,
+        "sarcasm_rate": 0.2005
+      }
+    },
+    "dev": {
+      "Egyptian": {
+        "total": 196,
+        "neg": 139,
+        "pos": 57,
+        "neg_rate": 0.7092,
+        "sarcasm_rate": 0.449
+      },
+      "Gulf": {
+        "total": 32,
+        "neg": 21,
+        "pos": 11,
+        "neg_rate": 0.6562,
+        "sarcasm_rate": 0.25
+      },
+      "Levantine": {
+        "total": 43,
+        "neg": 27,
+        "pos": 16,
+        "neg_rate": 0.6279,
+        "sarcasm_rate": 0.2558
+      },
+      "MSA": {
+        "total": 336,
+        "neg": 222,
+        "pos": 114,
+        "neg_rate": 0.6607,
+        "sarcasm_rate": 0.1994
+      }
+    },
+    "test": {
+      "Egyptian": {
+        "total": 327,
+        "neg": 238,
+        "pos": 89,
+        "neg_rate": 0.7278,
+        "sarcasm_rate": 0.4281
+      },
+      "Gulf": {
+        "total": 61,
+        "neg": 42,
+        "pos": 19,
+        "neg_rate": 0.6885,
+        "sarcasm_rate": 0.3934
+      },
+      "Levantine": {
+        "total": 86,
+        "neg": 59,
+        "pos": 27,
+        "neg_rate": 0.686,
+        "sarcasm_rate": 0.3023
+      },
+      "MSA": {
+        "total": 551,
+        "neg": 371,
+        "pos": 180,
+        "neg_rate": 0.6733,
+        "sarcasm_rate": 0.2105
+      }
+    },
+    "maghrebi_exploratory": {
+      "Maghrebi": {
+        "total": 21,
+        "neg": 17,
+        "pos": 4,
+        "neg_rate": 0.8095,
+        "sarcasm_rate": 0.4762
+      }
+    }
+  },
+  "sha256_train_ids": "91fc1a86efad3fcdea61bb4ada6aaffa912fcd7e73feae000ebbbfb6f00e61fa",
+  "sha256_dev_ids": "d918831a55864ab5ad5751a7111074be2655a9ead912d49afba7922a90566126",
+  "sha256_test_ids": "567a013d44c6fa502523a514c054b1f5010e4bca14c77dd90004efe61766584a"
+}

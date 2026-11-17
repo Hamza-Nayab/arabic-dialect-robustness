@@ -1,0 +1,168 @@
+\newcommand{\nLodoModels}{11}
+\newcommand{\nLodoEquiv}{1}
+\newcommand{\nLodoSig}{1}
+\newcommand{\lodoMdeMin}{0.027}
+\newcommand{\lodoMdeMax}{0.056}
+\newcommand{\lodoMdeGlfMin}{0.075}
+\newcommand{\lodoMdeGlfMax}{0.137}
+\newcommand{\lodoMdeLevMin}{0.046}
+\newcommand{\lodoMdeLevMax}{0.127}
+\newcommand{\lodoDeltaMin}{-0.059}
+\newcommand{\lodoDeltaMax}{+0.008}
+\newcommand{\nMsaSig}{0}
+\newcommand{\msaDeltaMin}{-0.013}
+\newcommand{\msaDeltaMax}{+0.009}
+\newcommand{\hmSdMin}{0.017}
+\newcommand{\hmSdMax}{0.023}
+\newcommand{\pooledSdMax}{0.015}
+\newcommand{\levGlfShareMin}{82}
+\newcommand{\levGlfShareMax}{92}
+\newcommand{\lcCells}{12}
+\newcommand{\lcSigAll}{0}
+\newcommand{\lcGainAllMin}{-0.023}
+\newcommand{\lcGainAllMax}{+0.068}
+\newcommand{\leakInflMin}{-0.005}
+\newcommand{\leakInflMax}{+0.004}
+\newcommand{\leakInflPooledMin}{+0.001}
+\newcommand{\leakInflPooledMax}{+0.007}
+\newcommand{\vLodoDeltaMin}{-0.013}
+\newcommand{\vLodoDeltaMax}{+0.022}
+\newcommand{\vLodoSig}{0}
+\newcommand{\vModels}{5}
+\newcommand{\vMsaDeltaMin}{-0.038}
+\newcommand{\vMsaDeltaMax}{+0.018}
+\newcommand{\vMsaSig}{0}
+\newcommand{\llmBest}{Fanar-1-9B-Instruct}
+\newcommand{\llmBestHM}{0.849}
+\newcommand{\llmBestGap}{-0.021}
+\newcommand{\llmN}{4}
+\newcommand{\llmFailed}{none}
+\newcommand{\probeLayerGainMin}{-0.027}
+\newcommand{\probeLayerGainMax}{+0.052}
+\newcommand{\probeCgrid}{0.0003, 0.001, 0.003, 0.01, 0.1, 1, 5}
+\newcommand{\probeNenc}{11}
+\newcommand{\ndSeven}{8}
+\newcommand{\ndFive}{13}
+\newcommand{\ndNine}{4}
+\newcommand{\didAgree}{0.56}
+\newcommand{\didKappa}{0.36}
+\newcommand{\nadiAgree}{0.58}
+\newcommand{\nadiKappa}{0.34}
+\newcommand{\didLev}{0.25}
+\newcommand{\didMSA}{0.53}
+\newcommand{\ndDeltaMaxAbs}{0.001}
+\newcommand{\didDeltaMin}{-0.014}
+\newcommand{\didDeltaMax}{+0.010}
+\newcommand{\didTestCounts}{MSA 299, EGY 215, LEV 27, GLF 45}
+\newcommand{\glmmFert}{-0.028}
+\newcommand{\glmmFertLo}{-0.205}
+\newcommand{\glmmFertHi}{+0.140}
+\newcommand{\glmmRhat}{1.010}
+\newcommand{\glmmEss}{519}
+\newcommand{\glmmDiv}{0}
+\newcommand{\glmmNmodels}{11}
+\newcommand{\glmmNobs}{11,275}
+\newcommand{\glmmNegEGY}{2}
+\newcommand{\glmmNegLEV}{9}
+\newcommand{\glmmNegGLF}{1}
+\newcommand{\bestEnc}{MARBERTv2}
+\newcommand{\bestEncHM}{0.870}
+\newcommand{\bestEncHMlo}{0.833}
+\newcommand{\bestEncHMhi}{0.900}
+\newcommand{\tfidfHM}{0.755}
+\newcommand{\nEnc}{11}
+\newcommand{\bestPoolEnc}{MARBERTv2}
+\newcommand{\bestPoolF}{0.888}
+\newcommand{\bestWdEnc}{MARBERTv2}
+\newcommand{\bestWdF}{0.833}
+\newcommand{\levWorstN}{11}
+\newcommand{\levWorstExcept}{none}
+\newcommand{\lodoArDeltaMin}{-0.015}
+\newcommand{\lodoArDeltaMax}{+0.008}
+\newcommand{\lodoArSig}{0}
+\newcommand{\lodoArLossBound}{0.045}
+\newcommand{\msaArLossBound}{0.033}
+\newcommand{\nArab}{10}
+\newcommand{\xlmLodo}{-0.059}
+\newcommand{\xlmLodoLo}{-0.091}
+\newcommand{\xlmLodoHi}{-0.030}
+\newcommand{\msaGlfLossN}{9}
+\newcommand{\pidwMaxAbs}{0.009}
+\newcommand{\pdCAMeLBERTMixCAMeLBERTDAHM}{+0.049 [+0.020, +0.083]}
+\newcommand{\pdCAMeLBERTMixCAMeLBERTDAWD}{+0.071 [+0.003, +0.143]}
+\newcommand{\pdCAMeLBERTMSACAMeLBERTDAHM}{+0.033 [+0.003, +0.065]}
+\newcommand{\pdCAMeLBERTMSACAMeLBERTDAWD}{+0.020 [-0.038, +0.098]}
+\newcommand{\pdCAMeLBERTMixCAMeLBERTMSAHM}{+0.016 [-0.015, +0.046]}
+\newcommand{\pdCAMeLBERTMixCAMeLBERTMSAWD}{+0.051 [-0.022, +0.114]}
+\newcommand{\pdCAMeLBERTDACAMeLBERTCAHM}{+0.045 [+0.008, +0.081]}
+\newcommand{\pdCAMeLBERTDACAMeLBERTCAWD}{+0.038 [-0.029, +0.129]}
+\newcommand{\pdCAMeLBERTMSACAMeLBERTCAHM}{+0.078 [+0.041, +0.117]}
+\newcommand{\pdCAMeLBERTMSACAMeLBERTCAWD}{+0.059 [-0.009, +0.157]}
+\newcommand{\pdCAMeLBERTMixCAMeLBERTCAHM}{+0.093 [+0.055, +0.133]}
+\newcommand{\pdCAMeLBERTMixCAMeLBERTCAWD}{+0.110 [+0.039, +0.194]}
+\newcommand{\pdMARBERTvMARBERTHM}{+0.009 [-0.016, +0.035]}
+\newcommand{\pdMARBERTvMARBERTWD}{+0.010 [-0.042, +0.064]}
+\newcommand{\pdAraBERTvTwitterAraBERTvHM}{-0.003 [-0.038, +0.027]}
+\newcommand{\pdAraBERTvTwitterAraBERTvWD}{+0.015 [-0.073, +0.073]}
+\newcommand{\pdAraELECTRAAraBERTvHM}{-0.030 [-0.064, -0.001]}
+\newcommand{\pdAraELECTRAAraBERTvWD}{-0.004 [-0.096, +0.049]}
+\newcommand{\pdARBERTvMARBERTvHM}{-0.021 [-0.048, +0.006]}
+\newcommand{\pdARBERTvMARBERTvWD}{-0.030 [-0.083, +0.031]}
+\newcommand{\pdARBERTvMARBERTHM}{-0.013 [-0.041, +0.017]}
+\newcommand{\pdARBERTvMARBERTWD}{-0.020 [-0.073, +0.044]}
+\newcommand{\topGroup}{AraBERTv02, AraBERTv02-Twitter, MARBERT, MARBERTv2, ARBERTv2, CAMeLBERT-Mix, CAMeLBERT-MSA}
+\newcommand{\topGroupN}{7}
+\newcommand{\pidHMAraBERTv}{0.855}
+\newcommand{\pidFAraBERTv}{0.872}
+\newcommand{\pidWDAraBERTv}{0.788}
+\newcommand{\pidGapAraBERTv}{0.105}
+\newcommand{\pidHMAraBERTvTwitter}{0.852}
+\newcommand{\pidFAraBERTvTwitter}{0.878}
+\newcommand{\pidWDAraBERTvTwitter}{0.803}
+\newcommand{\pidGapAraBERTvTwitter}{0.100}
+\newcommand{\pidHMAraELECTRA}{0.825}
+\newcommand{\pidFAraELECTRA}{0.845}
+\newcommand{\pidWDAraELECTRA}{0.784}
+\newcommand{\pidGapAraELECTRA}{0.075}
+\newcommand{\pidHMMARBERT}{0.861}
+\newcommand{\pidFMARBERT}{0.875}
+\newcommand{\pidWDMARBERT}{0.824}
+\newcommand{\pidGapMARBERT}{0.060}
+\newcommand{\pidHMMARBERTv}{0.870}
+\newcommand{\pidFMARBERTv}{0.888}
+\newcommand{\pidWDMARBERTv}{0.833}
+\newcommand{\pidGapMARBERTv}{0.071}
+\newcommand{\pidHMARBERTv}{0.849}
+\newcommand{\pidFARBERTv}{0.862}
+\newcommand{\pidWDARBERTv}{0.803}
+\newcommand{\pidGapARBERTv}{0.076}
+\newcommand{\pidHMCAMeLBERTMix}{0.861}
+\newcommand{\pidFCAMeLBERTMix}{0.858}
+\newcommand{\pidWDCAMeLBERTMix}{0.822}
+\newcommand{\pidGapCAMeLBERTMix}{0.042}
+\newcommand{\pidHMCAMeLBERTMSA}{0.845}
+\newcommand{\pidFCAMeLBERTMSA}{0.861}
+\newcommand{\pidWDCAMeLBERTMSA}{0.771}
+\newcommand{\pidGapCAMeLBERTMSA}{0.112}
+\newcommand{\pidHMCAMeLBERTDA}{0.812}
+\newcommand{\pidFCAMeLBERTDA}{0.835}
+\newcommand{\pidWDCAMeLBERTDA}{0.751}
+\newcommand{\pidGapCAMeLBERTDA}{0.098}
+\newcommand{\pidHMCAMeLBERTCA}{0.768}
+\newcommand{\pidFCAMeLBERTCA}{0.796}
+\newcommand{\pidWDCAMeLBERTCA}{0.712}
+\newcommand{\pidGapCAMeLBERTCA}{0.107}
+\newcommand{\pidHMXLMRBase}{0.772}
+\newcommand{\pidFXLMRBase}{0.803}
+\newcommand{\pidWDXLMRBase}{0.694}
+\newcommand{\pidGapXLMRBase}{0.154}
+\newcommand{\nAboveTfidf}{9}
+\newcommand{\notAboveTfidf}{CAMeLBERT-CA, XLM-R-Base}
+\newcommand{\mvN}{79}
+\newcommand{\mvRankAcc}{7}
+\newcommand{\mvRankFone}{1}
+\newcommand{\mvTauAcc}{0.22}
+\newcommand{\mvTauFone}{0.18}
+\newcommand{\mvTauWd}{0.75}
+\newcommand{\mvTauPooled}{0.86}
+\newcommand{\mvDriFoneMin}{0.9945}

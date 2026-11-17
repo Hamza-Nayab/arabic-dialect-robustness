@@ -1,0 +1,31 @@
+{
+  "title": "Dialect-Level Generalization of Arabic Sentiment Classifiers: An Exact-Duplicate-Free, Uncertainty-Aware Evaluation of Encoders and LLMs",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "Replication bundle, model predictions, evaluation artifacts, and manuscript source for 'Dialect-Level Generalization of Arabic Sentiment Classifiers: An Exact-Duplicate-Free, Uncertainty-Aware Evaluation of Encoders and LLMs'. Includes multi-seed predictions across 11 encoders and 4 instruction-tuned LLMs on ArSarcasm and ArSarcasm-v2.",
+  "creators": [
+    {
+      "name": "Nayab, Malik Mir Hamza",
+      "affiliation": "Department of Computer Science, COMSATS University Islamabad, Abbottabad Campus, Abbottabad, Pakistan"
+    },
+    {
+      "name": "Raza, Syed Ghazi",
+      "affiliation": "Department of Computer Science, COMSATS University Islamabad, Abbottabad Campus, Abbottabad, Pakistan"
+    },
+    {
+      "name": "Hanif, Baseera",
+      "affiliation": "Department of Computer Science, COMSATS University Islamabad, Abbottabad Campus, Abbottabad, Pakistan"
+    }
+  ],
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "Arabic NLP",
+    "sentiment analysis",
+    "dialect generalization",
+    "robustness",
+    "large language models",
+    "data leakage",
+    "reproducibility"
+  ]
+}

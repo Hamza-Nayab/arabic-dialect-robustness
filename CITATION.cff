@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Dialect-Level Generalization of Arabic Sentiment Classifiers: An Exact-Duplicate-Free, Uncertainty-Aware Evaluation of Encoders and LLMs"
+authors:
+  - family-names: Nayab
+    given-names: Malik Mir Hamza
+    affiliation: "Department of Computer Science, COMSATS University Islamabad, Abbottabad Campus, Abbottabad, Pakistan"
+  - family-names: Raza
+    given-names: Syed Ghazi
+    affiliation: "Department of Computer Science, COMSATS University Islamabad, Abbottabad Campus, Abbottabad, Pakistan"
+  - family-names: Hanif
+    given-names: Baseera
+    affiliation: "Department of Computer Science, COMSATS University Islamabad, Abbottabad Campus, Abbottabad, Pakistan"
+date-released: "2026-11-17"
+license: "CC-BY-4.0"
+repository-code: "https://github.com/Hamza-Nayab/arabic-dialect-robustness"
+url: "https://github.com/Hamza-Nayab/arabic-dialect-robustness"

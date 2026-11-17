@@ -1,0 +1,26 @@
+{
+  "model": "CAMeLBERT-CA",
+  "selected_lr": 5e-05,
+  "grid": {
+    "1e-05": {
+      "dev_f1": 0.8208009496788309,
+      "best_epoch": 4,
+      "seconds": 85.2
+    },
+    "2e-05": {
+      "dev_f1": 0.8326409822807146,
+      "best_epoch": 4,
+      "seconds": 75.3
+    },
+    "3e-05": {
+      "dev_f1": 0.8297540600449357,
+      "best_epoch": 2,
+      "seconds": 75.0
+    },
+    "5e-05": {
+      "dev_f1": 0.8441858475228887,
+      "best_epoch": 4,
+      "seconds": 75.6
+    }
+  }
+}

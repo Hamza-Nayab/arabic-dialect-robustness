@@ -1,0 +1,26 @@
+{
+  "model": "AraBERTv02-Twitter",
+  "selected_lr": 3e-05,
+  "grid": {
+    "1e-05": {
+      "dev_f1": 0.9035382098621174,
+      "best_epoch": 2,
+      "seconds": 89.8
+    },
+    "2e-05": {
+      "dev_f1": 0.9058108644917822,
+      "best_epoch": 4,
+      "seconds": 83.9
+    },
+    "3e-05": {
+      "dev_f1": 0.9106136324471668,
+      "best_epoch": 4,
+      "seconds": 83.8
+    },
+    "5e-05": {
+      "dev_f1": 0.8997553945625925,
+      "best_epoch": 4,
+      "seconds": 83.9
+    }
+  }
+}

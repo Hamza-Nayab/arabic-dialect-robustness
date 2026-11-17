@@ -1,0 +1,26 @@
+{
+  "model": "MARBERT",
+  "selected_lr": 3e-05,
+  "grid": {
+    "1e-05": {
+      "dev_f1": 0.9111038404611669,
+      "best_epoch": 2,
+      "seconds": 101.3
+    },
+    "2e-05": {
+      "dev_f1": 0.9080651268458917,
+      "best_epoch": 3,
+      "seconds": 93.2
+    },
+    "3e-05": {
+      "dev_f1": 0.9186694710602166,
+      "best_epoch": 4,
+      "seconds": 94.4
+    },
+    "5e-05": {
+      "dev_f1": 0.8871580128114238,
+      "best_epoch": 4,
+      "seconds": 94.4
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "raw_binary_train": 6801,
+  "raw_binary_test": 2252,
+  "raw_cross_split_leak_texts": 3,
+  "test_overlap_with_v1": 0,
+  "train_overlap_with_v1": 2092,
+  "maghrebi_binary_train": 31,
+  "maghrebi_binary_test": 0,
+  "train_total": 5726,
+  "dev_total": 1011,
+  "test_total": 2249,
+  "lodo_train_sizes": {
+    "MSA": 2285,
+    "Egyptian": 4129,
+    "Levantine": 5365,
+    "Gulf": 5399
+  },
+  "n_lodo_matched": 2285,
+  "n_msa_only": 3441,
+  "by_dialect": {
+    "train": {
+      "MSA": {
+        "total": 3441,
+        "pos": 1190
+      },
+      "Egyptian": {
+        "total": 1597,
+        "pos": 429
+      },
+      "Levantine": {
+        "total": 361,
+        "pos": 121
+      },
+      "Gulf": {
+        "total": 327,
+        "pos": 103
+      }
+    },
+    "dev": {
+      "MSA": {
+        "total": 607,
+        "pos": 210
+      },
+      "Egyptian": {
+        "total": 282,
+        "pos": 76
+      },
+      "Levantine": {
+        "total": 64,
+        "pos": 21
+      },
+      "Gulf": {
+        "total": 58,
+        "pos": 18
+      }
+    },
+    "test": {
+      "MSA": {
+        "total": 1798,
+        "pos": 485
+      },
+      "Egyptian": {
+        "total": 206,
+        "pos": 18
+      },
+      "Levantine": {
+        "total": 28,
+        "pos": 1
+      },
+      "Gulf": {
+        "total": 217,
+        "pos": 71
+      }
+    }
+  },
+  "tfidf_C": 2.0
+}

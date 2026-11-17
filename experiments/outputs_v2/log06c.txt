@@ -1,0 +1,18 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+  Intercept                        +4.736 [+4.320,+5.150] rhat=1.010
+  fertility (per SD)               -0.028 [-0.205,+0.140] rhat=1.005
+  sigma_tweet                      +3.124 [+2.899,+3.383] rhat=1.005
+  phi                              +1.237 [+1.134,+1.345] rhat=0.999
+  model[CAMeLBERT-Mix]             -0.495 [-0.832,-0.153] rhat=1.002
+  model[CAMeLBERT-DA]              -0.762 [-1.112,-0.411] rhat=1.001
+  model[XLM-R-Base]                -0.918 [-1.264,-0.584] rhat=1.001
+  model[CAMeLBERT-CA]              -1.340 [-1.670,-0.999] rhat=1.003
+  model[AraELECTRA]                -0.443 [-0.795,-0.093] rhat=1.001
+  dialect[Egyptian]                -0.618 [-1.214,-0.025] rhat=1.005
+  dialect[Levantine]               -1.628 [-2.488,-0.776] rhat=1.004
+  dialect[Gulf]                    -0.688 [-1.725,+0.352] rhat=1.002
+  CAMeLBERT-Mix:Levantine          +1.031 [+0.239,+1.899] rhat=1.001
+  CAMeLBERT-Mix:Gulf               +1.110 [+0.062,+2.142] rhat=0.999
+  CAMeLBERT-DA:Egyptian            +0.570 [+0.005,+1.127] rhat=1.001
+divergences=0 max_rhat=1.010 min_ess=519
+[STEP 6c PASSED]

@@ -1,0 +1,12 @@
+model,checkpoint,commit_hash,vocab_size,hidden_size,num_hidden_layers
+AraBERTv02,aubmindlab/bert-base-arabertv02,016fb9d6768f522a59c6e0d2d5d5d43a4e1bff60,64000,768,12
+AraBERTv02-Twitter,aubmindlab/bert-base-arabertv02-twitter,0decc2e761667f0aea7aa94546ada5a32a6e5bb8,64000,768,12
+MARBERT,UBC-NLP/MARBERT,88e1fa192dd723cf0b3563500aec46209762eb22,100000,768,12
+MARBERTv2,UBC-NLP/MARBERTv2,fe88db9db8ccdb0c4e1627495f405c44a5f89066,100000,768,12
+CAMeLBERT-Mix,CAMeL-Lab/bert-base-arabic-camelbert-mix,9be352797bdf28a9ae21e2ae582aaaca7abdb22d,30000,768,12
+CAMeLBERT-MSA,CAMeL-Lab/bert-base-arabic-camelbert-msa,277069fd3645fedb22b746caf38d111aadee0241,30000,768,12
+CAMeLBERT-DA,CAMeL-Lab/bert-base-arabic-camelbert-da,231698eab9ebf0ae7b518a64277b81b2fe829f2d,30000,768,12
+XLM-R-Base,FacebookAI/xlm-roberta-base,e73636d4f797dec63c3081bb6ed5c7b0bb3f2089,250002,768,12
+CAMeLBERT-CA,CAMeL-Lab/bert-base-arabic-camelbert-ca,fee5a451663e9504180bf17d5fbc6770cd6c3e88,30000,768,12
+ARBERTv2,UBC-NLP/ARBERTv2,ec9ffb418de56e5941bb3255397db7f8c886c887,100000,768,12
+AraELECTRA,aubmindlab/araelectra-base-discriminator,aaa9fba5575bd531d45cec3eccf24b755e0dccca,64000,768,12

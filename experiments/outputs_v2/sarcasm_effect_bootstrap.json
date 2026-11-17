@@ -1,0 +1,145 @@
+[
+  {
+    "model": "ARBERTv2",
+    "neg_recall_gap_nonsarc_minus_sarc": -0.0028065312663527182,
+    "neg_recall_gap_ci95": [
+      -0.03991692830978544,
+      0.034154647435897356
+    ],
+    "acc_gap_nonsarc_minus_sarc": -0.024564559528030036,
+    "acc_gap_ci95": [
+      -0.06079579026789204,
+      0.010973733489687039
+    ]
+  },
+  {
+    "model": "AraBERTv02",
+    "neg_recall_gap_nonsarc_minus_sarc": -0.014658997252747236,
+    "neg_recall_gap_ci95": [
+      -0.0459020146520146,
+      0.017366562009419106
+    ],
+    "acc_gap_nonsarc_minus_sarc": -0.05315128128210023,
+    "acc_gap_ci95": [
+      -0.08547353804757879,
+      -0.0192672966265784
+    ]
+  },
+  {
+    "model": "AraBERTv02-Twitter",
+    "neg_recall_gap_nonsarc_minus_sarc": -0.0006872547095761334,
+    "neg_recall_gap_ci95": [
+      -0.03347968995290426,
+      0.031157607273678608
+    ],
+    "acc_gap_nonsarc_minus_sarc": -0.038110567963856846,
+    "acc_gap_ci95": [
+      -0.07239993818575174,
+      -0.003481937513067424
+    ]
+  },
+  {
+    "model": "AraELECTRA",
+    "neg_recall_gap_nonsarc_minus_sarc": -0.02501162676609106,
+    "neg_recall_gap_ci95": [
+      -0.06015093537414959,
+      0.01151229722658298
+    ],
+    "acc_gap_nonsarc_minus_sarc": -0.06856196196605671,
+    "acc_gap_ci95": [
+      -0.10390418337014912,
+      -0.02991627805503283
+    ]
+  },
+  {
+    "model": "CAMeLBERT-CA",
+    "neg_recall_gap_nonsarc_minus_sarc": -0.00021205357142858194,
+    "neg_recall_gap_ci95": [
+      -0.040788118131868084,
+      0.0421245421245422
+    ],
+    "acc_gap_nonsarc_minus_sarc": -0.0645957439072059,
+    "acc_gap_ci95": [
+      -0.10474412991900516,
+      -0.023167048460552574
+    ]
+  },
+  {
+    "model": "CAMeLBERT-DA",
+    "neg_recall_gap_nonsarc_minus_sarc": -0.0035049058084772582,
+    "neg_recall_gap_ci95": [
+      -0.04454923796441654,
+      0.03755028453689163
+    ],
+    "acc_gap_nonsarc_minus_sarc": -0.04590025634732336,
+    "acc_gap_ci95": [
+      -0.08617349350495879,
+      -0.004122464934049663
+    ]
+  },
+  {
+    "model": "CAMeLBERT-MSA",
+    "neg_recall_gap_nonsarc_minus_sarc": -0.009384239272632147,
+    "neg_recall_gap_ci95": [
+      -0.04472462061747773,
+      0.028339220303505996
+    ],
+    "acc_gap_nonsarc_minus_sarc": -0.04304387902588017,
+    "acc_gap_ci95": [
+      -0.07880123537593069,
+      -0.005642595471197276
+    ]
+  },
+  {
+    "model": "CAMeLBERT-Mix",
+    "neg_recall_gap_nonsarc_minus_sarc": -0.005176355638409206,
+    "neg_recall_gap_ci95": [
+      -0.03710426478283613,
+      0.028568158032443725
+    ],
+    "acc_gap_nonsarc_minus_sarc": -0.0648858368103848,
+    "acc_gap_ci95": [
+      -0.09979989909733017,
+      -0.03088019398765536
+    ]
+  },
+  {
+    "model": "MARBERT",
+    "neg_recall_gap_nonsarc_minus_sarc": -0.0057747252747252864,
+    "neg_recall_gap_ci95": [
+      -0.04073906004709579,
+      0.02834494374672941
+    ],
+    "acc_gap_nonsarc_minus_sarc": -0.03192039142963629,
+    "acc_gap_ci95": [
+      -0.06489302953448421,
+      0.004997636514039953
+    ]
+  },
+  {
+    "model": "MARBERTv2",
+    "neg_recall_gap_nonsarc_minus_sarc": -0.022855164181057014,
+    "neg_recall_gap_ci95": [
+      -0.05452438186813188,
+      0.00874869178440607
+    ],
+    "acc_gap_nonsarc_minus_sarc": -0.04374404583344696,
+    "acc_gap_ci95": [
+      -0.07615424472988075,
+      -0.010997595607552273
+    ]
+  },
+  {
+    "model": "XLM-R-Base",
+    "neg_recall_gap_nonsarc_minus_sarc": 0.0040140633176347345,
+    "neg_recall_gap_ci95": [
+      -0.03674900248560961,
+      0.044941702642595505
+    ],
+    "acc_gap_nonsarc_minus_sarc": -0.05431768660176171,
+    "acc_gap_ci95": [
+      -0.09542994991227825,
+      -0.010584894597616508
+    ]
+  }
+]

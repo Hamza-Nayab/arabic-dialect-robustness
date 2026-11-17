@@ -1,0 +1,144 @@
+model,feature,bucket,n,macro_f1
+ARBERTv2,has_hashtag,False,553,0.851
+ARBERTv2,has_hashtag,True,472,0.8767
+ARBERTv2,has_elongation,False,955,0.8622
+ARBERTv2,has_elongation,True,70,0.9067
+ARBERTv2,has_repeated_punct,False,863,0.8698
+ARBERTv2,has_repeated_punct,True,162,0.8352
+ARBERTv2,has_emoji,False,899,0.8664
+ARBERTv2,has_emoji,True,126,0.8332
+ARBERTv2,has_latin,False,978,0.8635
+ARBERTv2,has_latin,True,47,0.8919
+ARBERTv2,length_bucket,Short (<=10w),222,0.8959
+ARBERTv2,length_bucket,Medium (11-20w),527,0.857
+ARBERTv2,length_bucket,Long (>20w),276,0.8271
+AraBERTv02,has_hashtag,False,553,0.8757
+AraBERTv02,has_hashtag,True,472,0.8814
+AraBERTv02,has_elongation,False,955,0.8754
+AraBERTv02,has_elongation,True,70,0.9337
+AraBERTv02,has_repeated_punct,False,863,0.8804
+AraBERTv02,has_repeated_punct,True,162,0.8722
+AraBERTv02,has_emoji,False,899,0.8745
+AraBERTv02,has_emoji,True,126,0.8809
+AraBERTv02,has_latin,False,978,0.8771
+AraBERTv02,has_latin,True,47,0.913
+AraBERTv02,length_bucket,Short (<=10w),222,0.9097
+AraBERTv02,length_bucket,Medium (11-20w),527,0.8737
+AraBERTv02,length_bucket,Long (>20w),276,0.8316
+AraBERTv02-Twitter,has_hashtag,False,553,0.8552
+AraBERTv02-Twitter,has_hashtag,True,472,0.9032
+AraBERTv02-Twitter,has_elongation,False,955,0.8791
+AraBERTv02-Twitter,has_elongation,True,70,0.9006
+AraBERTv02-Twitter,has_repeated_punct,False,863,0.8789
+AraBERTv02-Twitter,has_repeated_punct,True,162,0.8893
+AraBERTv02-Twitter,has_emoji,False,899,0.8825
+AraBERTv02-Twitter,has_emoji,True,126,0.8491
+AraBERTv02-Twitter,has_latin,False,978,0.8785
+AraBERTv02-Twitter,has_latin,True,47,0.9117
+AraBERTv02-Twitter,length_bucket,Short (<=10w),222,0.8819
+AraBERTv02-Twitter,length_bucket,Medium (11-20w),527,0.8944
+AraBERTv02-Twitter,length_bucket,Long (>20w),276,0.8331
+AraELECTRA,has_hashtag,False,553,0.8407
+AraELECTRA,has_hashtag,True,472,0.8492
+AraELECTRA,has_elongation,False,955,0.8457
+AraELECTRA,has_elongation,True,70,0.8559
+AraELECTRA,has_repeated_punct,False,863,0.8578
+AraELECTRA,has_repeated_punct,True,162,0.7679
+AraELECTRA,has_emoji,False,899,0.8449
+AraELECTRA,has_emoji,True,126,0.8254
+AraELECTRA,has_latin,False,978,0.8399
+AraELECTRA,has_latin,True,47,0.9558
+AraELECTRA,length_bucket,Short (<=10w),222,0.8915
+AraELECTRA,length_bucket,Medium (11-20w),527,0.8282
+AraELECTRA,length_bucket,Long (>20w),276,0.8046
+CAMeLBERT-CA,has_hashtag,False,553,0.8028
+CAMeLBERT-CA,has_hashtag,True,472,0.8261
+CAMeLBERT-CA,has_elongation,False,955,0.8169
+CAMeLBERT-CA,has_elongation,True,70,0.7959
+CAMeLBERT-CA,has_repeated_punct,False,863,0.832
+CAMeLBERT-CA,has_repeated_punct,True,162,0.7078
+CAMeLBERT-CA,has_emoji,False,899,0.8086
+CAMeLBERT-CA,has_emoji,True,126,0.8174
+CAMeLBERT-CA,has_latin,False,978,0.8175
+CAMeLBERT-CA,has_latin,True,47,0.7749
+CAMeLBERT-CA,length_bucket,Short (<=10w),222,0.8508
+CAMeLBERT-CA,length_bucket,Medium (11-20w),527,0.8038
+CAMeLBERT-CA,length_bucket,Long (>20w),276,0.7646
+CAMeLBERT-DA,has_hashtag,False,553,0.8194
+CAMeLBERT-DA,has_hashtag,True,472,0.8556
+CAMeLBERT-DA,has_elongation,False,955,0.8383
+CAMeLBERT-DA,has_elongation,True,70,0.8559
+CAMeLBERT-DA,has_repeated_punct,False,863,0.8496
+CAMeLBERT-DA,has_repeated_punct,True,162,0.7778
+CAMeLBERT-DA,has_emoji,False,899,0.8417
+CAMeLBERT-DA,has_emoji,True,126,0.8015
+CAMeLBERT-DA,has_latin,False,978,0.8352
+CAMeLBERT-DA,has_latin,True,47,0.9117
+CAMeLBERT-DA,length_bucket,Short (<=10w),222,0.8824
+CAMeLBERT-DA,length_bucket,Medium (11-20w),527,0.8349
+CAMeLBERT-DA,length_bucket,Long (>20w),276,0.7748
+CAMeLBERT-MSA,has_hashtag,False,553,0.8688
+CAMeLBERT-MSA,has_hashtag,True,472,0.859
+CAMeLBERT-MSA,has_elongation,False,955,0.8636
+CAMeLBERT-MSA,has_elongation,True,70,0.8854
+CAMeLBERT-MSA,has_repeated_punct,False,863,0.8733
+CAMeLBERT-MSA,has_repeated_punct,True,162,0.8109
+CAMeLBERT-MSA,has_emoji,False,899,0.8679
+CAMeLBERT-MSA,has_emoji,True,126,0.8169
+CAMeLBERT-MSA,has_latin,False,978,0.8622
+CAMeLBERT-MSA,has_latin,True,47,0.9117
+CAMeLBERT-MSA,length_bucket,Short (<=10w),222,0.9096
+CAMeLBERT-MSA,length_bucket,Medium (11-20w),527,0.852
+CAMeLBERT-MSA,length_bucket,Long (>20w),276,0.8189
+CAMeLBERT-Mix,has_hashtag,False,553,0.8412
+CAMeLBERT-Mix,has_hashtag,True,472,0.8836
+CAMeLBERT-Mix,has_elongation,False,955,0.8612
+CAMeLBERT-Mix,has_elongation,True,70,0.9006
+CAMeLBERT-Mix,has_repeated_punct,False,863,0.8716
+CAMeLBERT-Mix,has_repeated_punct,True,162,0.8106
+CAMeLBERT-Mix,has_emoji,False,899,0.8696
+CAMeLBERT-Mix,has_emoji,True,126,0.8093
+CAMeLBERT-Mix,has_latin,False,978,0.8626
+CAMeLBERT-Mix,has_latin,True,47,0.8862
+CAMeLBERT-Mix,length_bucket,Short (<=10w),222,0.9141
+CAMeLBERT-Mix,length_bucket,Medium (11-20w),527,0.8577
+CAMeLBERT-Mix,length_bucket,Long (>20w),276,0.792
+MARBERT,has_hashtag,False,553,0.8613
+MARBERT,has_hashtag,True,472,0.9024
+MARBERT,has_elongation,False,955,0.8831
+MARBERT,has_elongation,True,70,0.8879
+MARBERT,has_repeated_punct,False,863,0.8961
+MARBERT,has_repeated_punct,True,162,0.81
+MARBERT,has_emoji,False,899,0.8841
+MARBERT,has_emoji,True,126,0.8571
+MARBERT,has_latin,False,978,0.8814
+MARBERT,has_latin,True,47,0.913
+MARBERT,length_bucket,Short (<=10w),222,0.9096
+MARBERT,length_bucket,Medium (11-20w),527,0.886
+MARBERT,length_bucket,Long (>20w),276,0.8307
+MARBERTv2,has_hashtag,False,553,0.8781
+MARBERTv2,has_hashtag,True,472,0.8959
+MARBERTv2,has_elongation,False,955,0.8891
+MARBERTv2,has_elongation,True,70,0.8854
+MARBERTv2,has_repeated_punct,False,863,0.8938
+MARBERTv2,has_repeated_punct,True,162,0.8552
+MARBERTv2,has_emoji,False,899,0.8904
+MARBERTv2,has_emoji,True,126,0.8571
+MARBERTv2,has_latin,False,978,0.887
+MARBERTv2,has_latin,True,47,0.913
+MARBERTv2,length_bucket,Short (<=10w),222,0.9002
+MARBERTv2,length_bucket,Medium (11-20w),527,0.8937
+MARBERTv2,length_bucket,Long (>20w),276,0.8491
+XLM-R-Base,has_hashtag,False,553,0.7991
+XLM-R-Base,has_hashtag,True,472,0.8344
+XLM-R-Base,has_elongation,False,955,0.8161
+XLM-R-Base,has_elongation,True,70,0.8587
+XLM-R-Base,has_repeated_punct,False,863,0.8262
+XLM-R-Base,has_repeated_punct,True,162,0.7723
+XLM-R-Base,has_emoji,False,899,0.8219
+XLM-R-Base,has_emoji,True,126,0.7698
+XLM-R-Base,has_latin,False,978,0.8174
+XLM-R-Base,has_latin,True,47,0.8466
+XLM-R-Base,length_bucket,Short (<=10w),222,0.8271
+XLM-R-Base,length_bucket,Medium (11-20w),527,0.8167
+XLM-R-Base,length_bucket,Long (>20w),276,0.7903

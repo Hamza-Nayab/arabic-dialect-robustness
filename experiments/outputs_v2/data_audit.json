@@ -1,0 +1,290 @@
+{
+  "near_duplicates": {
+    "test_with_neighbour_ge_0.5": 13,
+    "test_with_neighbour_ge_0.7": 8,
+    "test_with_neighbour_ge_0.8": 8,
+    "test_with_neighbour_ge_0.9": 4,
+    "by_dialect_ge_0.7": {
+      "MSA": 5,
+      "Egyptian": 1,
+      "Levantine": 0,
+      "Gulf": 2
+    },
+    "same_label_rate_ge_0.7": 1.0,
+    "pid_rescored_without_ge_0.7": {
+      "AraBERTv02-Twitter": {
+        "pooled_macro_f1": 0.8778,
+        "hm_f1": 0.8514,
+        "wd_f1": 0.8032
+      },
+      "AraBERTv02": {
+        "pooled_macro_f1": 0.8714,
+        "hm_f1": 0.8549,
+        "wd_f1": 0.7882
+      },
+      "AraELECTRA": {
+        "pooled_macro_f1": 0.8444,
+        "hm_f1": 0.8246,
+        "wd_f1": 0.7834
+      },
+      "ARBERTv2": {
+        "pooled_macro_f1": 0.8611,
+        "hm_f1": 0.8479,
+        "wd_f1": 0.8028
+      },
+      "CAMeLBERT-CA": {
+        "pooled_macro_f1": 0.7948,
+        "hm_f1": 0.7663,
+        "wd_f1": 0.7122
+      },
+      "CAMeLBERT-DA": {
+        "pooled_macro_f1": 0.8338,
+        "hm_f1": 0.8115,
+        "wd_f1": 0.7506
+      },
+      "CAMeLBERT-Mix": {
+        "pooled_macro_f1": 0.8571,
+        "hm_f1": 0.8605,
+        "wd_f1": 0.8219
+      },
+      "CAMeLBERT-MSA": {
+        "pooled_macro_f1": 0.8605,
+        "hm_f1": 0.8447,
+        "wd_f1": 0.7707
+      },
+      "MARBERT": {
+        "pooled_macro_f1": 0.8747,
+        "hm_f1": 0.8606,
+        "wd_f1": 0.8231
+      },
+      "MARBERTv2": {
+        "pooled_macro_f1": 0.887,
+        "hm_f1": 0.8695,
+        "wd_f1": 0.8323
+      },
+      "XLM-R-Base": {
+        "pooled_macro_f1": 0.8024,
+        "hm_f1": 0.7717,
+        "wd_f1": 0.6942
+      }
+    }
+  },
+  "pid_full_test": {
+    "AraBERTv02-Twitter": {
+      "pooled_macro_f1": 0.8784,
+      "hm_f1": 0.8521,
+      "wd_f1": 0.8035
+    },
+    "AraBERTv02": {
+      "pooled_macro_f1": 0.8721,
+      "hm_f1": 0.8554,
+      "wd_f1": 0.7882
+    },
+    "AraELECTRA": {
+      "pooled_macro_f1": 0.8452,
+      "hm_f1": 0.8254,
+      "wd_f1": 0.784
+    },
+    "ARBERTv2": {
+      "pooled_macro_f1": 0.8618,
+      "hm_f1": 0.8486,
+      "wd_f1": 0.8034
+    },
+    "CAMeLBERT-CA": {
+      "pooled_macro_f1": 0.7959,
+      "hm_f1": 0.7676,
+      "wd_f1": 0.7122
+    },
+    "CAMeLBERT-DA": {
+      "pooled_macro_f1": 0.8346,
+      "hm_f1": 0.8124,
+      "wd_f1": 0.7506
+    },
+    "CAMeLBERT-Mix": {
+      "pooled_macro_f1": 0.8578,
+      "hm_f1": 0.861,
+      "wd_f1": 0.822
+    },
+    "CAMeLBERT-MSA": {
+      "pooled_macro_f1": 0.8612,
+      "hm_f1": 0.8452,
+      "wd_f1": 0.7707
+    },
+    "MARBERT": {
+      "pooled_macro_f1": 0.8753,
+      "hm_f1": 0.8612,
+      "wd_f1": 0.8235
+    },
+    "MARBERTv2": {
+      "pooled_macro_f1": 0.8876,
+      "hm_f1": 0.8701,
+      "wd_f1": 0.8331
+    },
+    "XLM-R-Base": {
+      "pooled_macro_f1": 0.8029,
+      "hm_f1": 0.7724,
+      "wd_f1": 0.6943
+    }
+  },
+  "dialect_id": {
+    "did_madar6": {
+      "agreement": 0.5610139516604441,
+      "cohen_kappa": 0.3636926384117024,
+      "per_gold_dialect_agreement": {
+        "Egyptian": 0.6627835683629675,
+        "Gulf": 0.7075812274368231,
+        "Levantine": 0.25,
+        "MSA": 0.5290114613180515,
+        "Maghrebi": 0.42857142857142855
+      },
+      "confusion": {
+        "Egyptian": {
+          "Egyptian": 1081,
+          "Gulf": 27,
+          "Levantine": 55,
+          "MSA": 486,
+          "Maghrebi": 5
+        },
+        "Gulf": {
+          "Egyptian": 214,
+          "Gulf": 196,
+          "Levantine": 146,
+          "MSA": 652,
+          "Maghrebi": 3
+        },
+        "Levantine": {
+          "Egyptian": 44,
+          "Gulf": 15,
+          "Levantine": 92,
+          "MSA": 60,
+          "Maghrebi": 3
+        },
+        "MSA": {
+          "Egyptian": 211,
+          "Gulf": 18,
+          "Levantine": 53,
+          "MSA": 1477,
+          "Maghrebi": 1
+        },
+        "Maghrebi": {
+          "Egyptian": 81,
+          "Gulf": 21,
+          "Levantine": 22,
+          "MSA": 117,
+          "Maghrebi": 9
+        }
+      }
+    },
+    "did_nadi_region": {
+      "agreement": 0.5764040052242055,
+      "cohen_kappa": 0.3431854395757793,
+      "per_gold_dialect_agreement": {
+        "Egyptian": 0.5879828326180258,
+        "Gulf": 0.5776173285198556,
+        "Levantine": 0.5027173913043478,
+        "Maghrebi": 0.9523809523809523
+      },
+      "confusion": {
+        "Egyptian": {
+          "Egyptian": 959,
+          "Gulf": 9,
+          "Levantine": 11,
+          "Maghrebi": 0
+        },
+        "Gulf": {
+          "Egyptian": 222,
+          "Gulf": 160,
+          "Levantine": 69,
+          "Maghrebi": 0
+        },
+        "Iraqi": {
+          "Egyptian": 77,
+          "Gulf": 27,
+          "Levantine": 23,
+          "Maghrebi": 0
+        },
+        "Levantine": {
+          "Egyptian": 173,
+          "Gulf": 35,
+          "Levantine": 185,
+          "Maghrebi": 1
+        },
+        "Maghrebi": {
+          "Egyptian": 189,
+          "Gulf": 39,
+          "Levantine": 75,
+          "Maghrebi": 20
+        },
+        "Other": {
+          "Egyptian": 11,
+          "Gulf": 7,
+          "Levantine": 5,
+          "Maghrebi": 0
+        }
+      }
+    },
+    "test_agreeing_counts": {
+      "MSA": 299,
+      "Egyptian": 215,
+      "Levantine": 27,
+      "Gulf": 45
+    },
+    "pid_rescored_on_madar6_agreeing_test": {
+      "AraBERTv02-Twitter": {
+        "pooled_macro_f1": 0.8751,
+        "hm_f1": 0.8624,
+        "wd_f1": 0.8368
+      },
+      "AraBERTv02": {
+        "pooled_macro_f1": 0.8691,
+        "hm_f1": 0.8587,
+        "wd_f1": 0.8135
+      },
+      "AraELECTRA": {
+        "pooled_macro_f1": 0.8332,
+        "hm_f1": 0.823,
+        "wd_f1": 0.7763
+      },
+      "ARBERTv2": {
+        "pooled_macro_f1": 0.8471,
+        "hm_f1": 0.8444,
+        "wd_f1": 0.8151
+      },
+      "CAMeLBERT-CA": {
+        "pooled_macro_f1": 0.77,
+        "hm_f1": 0.7587,
+        "wd_f1": 0.7279
+      },
+      "CAMeLBERT-DA": {
+        "pooled_macro_f1": 0.825,
+        "hm_f1": 0.8173,
+        "wd_f1": 0.7859
+      },
+      "CAMeLBERT-Mix": {
+        "pooled_macro_f1": 0.8413,
+        "hm_f1": 0.8465,
+        "wd_f1": 0.8032
+      },
+      "CAMeLBERT-MSA": {
+        "pooled_macro_f1": 0.8492,
+        "hm_f1": 0.8435,
+        "wd_f1": 0.8164
+      },
+      "MARBERT": {
+        "pooled_macro_f1": 0.8667,
+        "hm_f1": 0.8586,
+        "wd_f1": 0.8268
+      },
+      "MARBERTv2": {
+        "pooled_macro_f1": 0.8724,
+        "hm_f1": 0.8609,
+        "wd_f1": 0.8331
+      },
+      "XLM-R-Base": {
+        "pooled_macro_f1": 0.7908,
+        "hm_f1": 0.7751,
+        "wd_f1": 0.7187
+      }
+    }
+  }
+}

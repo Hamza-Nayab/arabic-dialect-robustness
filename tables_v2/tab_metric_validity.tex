@@ -1,0 +1,18 @@
+\begin{tabular}{lcccccc}
+\toprule
+\textbf{Profile} & \textbf{F1}$^*$ & \textbf{HM-F1} & \textbf{WD-F1} & \textbf{Gap} & \textbf{DRI-acc} & \textbf{DRI-F1} \\
+\midrule
+Ideal uniform high & 0.850 & 0.850 & 0.850 & 0.000 & -- & 1.0000 \\
+Strong, slightly uneven & 0.835 & 0.834 & 0.800 & 0.080 & -- & 0.9991 \\
+MSA-biased drop & 0.750 & 0.736 & 0.620 & 0.280 & -- & 0.9894 \\
+Uniform mediocre & 0.550 & 0.550 & 0.550 & 0.000 & -- & 1.0000 \\
+Degenerate majority & 0.409 & 0.409 & 0.402 & 0.000 & -- & 1.0000 \\
+\midrule
+Majority (empirical) & 0.409 & 0.409 & 0.402 & 0.000 & 0.9996 & 1.0000 \\
+TF-IDF+LR (empirical) & 0.773 & 0.755 & 0.730 & 0.067 & 0.9995 & 0.9994 \\
+MARBERTv2 PID (empirical) & 0.888 & 0.870 & 0.833 & 0.071 & 0.9995 & 0.9991 \\
+\midrule
+\multicolumn{7}{l}{Rank of Majority among 79 systems: HM-F1 79, DRI-acc 7, DRI-F1 1} \\
+\multicolumn{7}{l}{Kendall $\tau$ with HM-F1: pooled 0.86, WD 0.75, DRI-acc 0.22, DRI-F1 0.18} \\
+\bottomrule
+\end{tabular}

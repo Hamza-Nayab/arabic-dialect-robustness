@@ -1,0 +1,26 @@
+{
+  "model": "XLM-R-Base",
+  "selected_lr": 3e-05,
+  "grid": {
+    "1e-05": {
+      "dev_f1": 0.8555230985610732,
+      "best_epoch": 4,
+      "seconds": 149.8
+    },
+    "2e-05": {
+      "dev_f1": 0.8509818423645014,
+      "best_epoch": 4,
+      "seconds": 142.4
+    },
+    "3e-05": {
+      "dev_f1": 0.8653424944305403,
+      "best_epoch": 4,
+      "seconds": 143.3
+    },
+    "5e-05": {
+      "dev_f1": 0.40255905511811024,
+      "best_epoch": 1,
+      "seconds": 140.6
+    }
+  }
+}

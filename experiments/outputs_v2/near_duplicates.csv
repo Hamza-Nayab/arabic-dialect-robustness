@@ -1,0 +1,9 @@
+test_tweet_id,pool_tweet_id,pool_split,jaccard,same_label,same_dialect
+4201,3237,train,0.833,True,True
+4272,281,train,0.922,True,False
+4299,2151,train,0.971,True,True
+4366,2935,train,0.957,True,True
+4618,2670,dev,0.863,True,True
+4739,2524,train,0.855,True,True
+4910,2192,train,0.867,True,True
+4914,2776,train,0.905,True,True

@@ -1,0 +1,26 @@
+{
+  "model": "CAMeLBERT-MSA",
+  "selected_lr": 1e-05,
+  "grid": {
+    "1e-05": {
+      "dev_f1": 0.8936447147756001,
+      "best_epoch": 4,
+      "seconds": 79.8
+    },
+    "2e-05": {
+      "dev_f1": 0.8839879059420676,
+      "best_epoch": 4,
+      "seconds": 74.1
+    },
+    "3e-05": {
+      "dev_f1": 0.8915952563720959,
+      "best_epoch": 4,
+      "seconds": 74.2
+    },
+    "5e-05": {
+      "dev_f1": 0.8844029708626928,
+      "best_epoch": 2,
+      "seconds": 73.7
+    }
+  }
+}

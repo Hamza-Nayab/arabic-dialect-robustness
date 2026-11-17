@@ -1,0 +1,39 @@
+[6b] models=['AraBERTv02', 'AraBERTv02-Twitter', 'MARBERT', 'MARBERTv2', 'CAMeLBERT-Mix', 'CAMeLBERT-MSA', 'CAMeLBERT-DA', 'XLM-R-Base', 'CAMeLBERT-CA', 'ARBERTv2', 'AraELECTRA']
+  AraBERTv02|LODO              dHM=-0.002 90%CI=[-0.018,+0.015] equiv=True MDE=0.029 | MDE GLF=0.075 LEV=0.069
+  AraBERTv02|MSAonly           dHM=-0.005 90%CI=[-0.028,+0.018] equiv=False MDE=0.040 | MDE GLF=0.085 LEV=0.095
+  AraBERTv02-Twitter|LODO      dHM=-0.009 90%CI=[-0.025,+0.007] equiv=False MDE=0.027 | MDE GLF=0.088 LEV=0.069
+  AraBERTv02-Twitter|MSAonly   dHM=+0.003 90%CI=[-0.015,+0.021] equiv=False MDE=0.032 | MDE GLF=0.099 LEV=0.064
+  MARBERT|LODO                 dHM=-0.000 90%CI=[-0.022,+0.019] equiv=False MDE=0.035 | MDE GLF=0.095 LEV=0.064
+  MARBERT|MSAonly              dHM=-0.005 90%CI=[-0.026,+0.015] equiv=False MDE=0.035 | MDE GLF=0.109 LEV=0.067
+  MARBERTv2|LODO               dHM=+0.005 90%CI=[-0.014,+0.024] equiv=False MDE=0.033 | MDE GLF=0.096 LEV=0.052
+  MARBERTv2|MSAonly            dHM=-0.013 90%CI=[-0.033,+0.007] equiv=False MDE=0.035 | MDE GLF=0.090 LEV=0.085
+  CAMeLBERT-Mix|LODO           dHM=+0.008 90%CI=[-0.016,+0.032] equiv=False MDE=0.042 | MDE GLF=0.124 LEV=0.077
+  CAMeLBERT-Mix|MSAonly        dHM=-0.006 90%CI=[-0.031,+0.017] equiv=False MDE=0.042 | MDE GLF=0.110 LEV=0.076
+  CAMeLBERT-MSA|LODO           dHM=+0.004 90%CI=[-0.014,+0.022] equiv=False MDE=0.031 | MDE GLF=0.101 LEV=0.046
+  CAMeLBERT-MSA|MSAonly        dHM=-0.009 90%CI=[-0.030,+0.011] equiv=False MDE=0.035 | MDE GLF=0.100 LEV=0.076
+  CAMeLBERT-DA|LODO            dHM=-0.011 90%CI=[-0.028,+0.006] equiv=False MDE=0.029 | MDE GLF=0.078 LEV=0.050
+  CAMeLBERT-DA|MSAonly         dHM=+0.009 90%CI=[-0.011,+0.031] equiv=False MDE=0.036 | MDE GLF=0.096 LEV=0.056
+  XLM-R-Base|LODO              dHM=-0.059 90%CI=[-0.091,-0.030] equiv=False MDE=0.052 | MDE GLF=0.137 LEV=0.127
+  XLM-R-Base|MSAonly           dHM=-0.011 90%CI=[-0.039,+0.018] equiv=False MDE=0.049 | MDE GLF=0.136 LEV=0.097
+  CAMeLBERT-CA|LODO            dHM=-0.011 90%CI=[-0.045,+0.021] equiv=False MDE=0.056 | MDE GLF=0.112 LEV=0.114
+  CAMeLBERT-CA|MSAonly         dHM=+0.004 90%CI=[-0.029,+0.038] equiv=False MDE=0.057 | MDE GLF=0.151 LEV=0.098
+  ARBERTv2|LODO                dHM=-0.010 90%CI=[-0.035,+0.013] equiv=False MDE=0.041 | MDE GLF=0.108 LEV=0.073
+  ARBERTv2|MSAonly             dHM=+0.001 90%CI=[-0.027,+0.031] equiv=False MDE=0.049 | MDE GLF=0.134 LEV=0.085
+  AraELECTRA|LODO              dHM=-0.015 90%CI=[-0.037,+0.006] equiv=False MDE=0.037 | MDE GLF=0.107 LEV=0.059
+  AraELECTRA|MSAonly           dHM=-0.001 90%CI=[-0.023,+0.018] equiv=False MDE=0.035 | MDE GLF=0.118 LEV=0.063
+{
+ "n_systems": 79,
+ "majority_rank_dri_acc": 7,
+ "majority_rank_dri_f1": 1,
+ "majority_rank_hm": 79,
+ "tau_hm_dri_acc": 0.2177864329763064,
+ "tau_hm_dri_f1": 0.1820837390457644,
+ "tau_hm_pooled": 0.8597857838364168,
+ "tau_hm_wd": 0.7513794222654983,
+ "dri_f1_range": [
+  0.9945314073409474,
+  0.9999504598444745
+ ],
+ "majority_dri_f1": 0.9999504598444745
+}
+[STEP 6b PASSED]

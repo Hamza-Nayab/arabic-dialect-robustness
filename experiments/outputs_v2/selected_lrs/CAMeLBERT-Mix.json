@@ -1,0 +1,26 @@
+{
+  "model": "CAMeLBERT-Mix",
+  "selected_lr": 3e-05,
+  "grid": {
+    "1e-05": {
+      "dev_f1": 0.8942245456808564,
+      "best_epoch": 4,
+      "seconds": 85.5
+    },
+    "2e-05": {
+      "dev_f1": 0.8915835587611591,
+      "best_epoch": 3,
+      "seconds": 73.6
+    },
+    "3e-05": {
+      "dev_f1": 0.899528902470079,
+      "best_epoch": 3,
+      "seconds": 73.4
+    },
+    "5e-05": {
+      "dev_f1": 0.8910300854277579,
+      "best_epoch": 4,
+      "seconds": 73.6
+    }
+  }
+}

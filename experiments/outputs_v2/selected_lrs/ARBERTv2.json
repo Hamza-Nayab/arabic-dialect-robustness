@@ -1,0 +1,26 @@
+{
+  "model": "ARBERTv2",
+  "selected_lr": 2e-05,
+  "grid": {
+    "1e-05": {
+      "dev_f1": 0.8941385967757234,
+      "best_epoch": 3,
+      "seconds": 99.5
+    },
+    "2e-05": {
+      "dev_f1": 0.8978530319765752,
+      "best_epoch": 3,
+      "seconds": 94.4
+    },
+    "3e-05": {
+      "dev_f1": 0.8938723302444994,
+      "best_epoch": 4,
+      "seconds": 95.2
+    },
+    "5e-05": {
+      "dev_f1": 0.8800721147909412,
+      "best_epoch": 3,
+      "seconds": 95.0
+    }
+  }
+}

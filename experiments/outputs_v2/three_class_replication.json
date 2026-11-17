@@ -1,0 +1,186 @@
+{
+  "data_card": {
+    "raw_total": 10547,
+    "raw_cross_split_leak_texts": 132,
+    "unique_total": 10132,
+    "train": 6813,
+    "dev": 1203,
+    "test": 2089,
+    "maghrebi": 27,
+    "test_by_dialect_label": {
+      "MSA": {
+        "0": 370,
+        "1": 846,
+        "2": 180
+      },
+      "Egyptian": {
+        "0": 238,
+        "1": 151,
+        "2": 88
+      },
+      "Levantine": {
+        "0": 59,
+        "1": 26,
+        "2": 27
+      },
+      "Gulf": {
+        "0": 42,
+        "1": 43,
+        "2": 19
+      }
+    },
+    "train_label_counts": {
+      "0": 2287,
+      "1": 3426,
+      "2": 1100
+    }
+  },
+  "classical": {
+    "Majority": {
+      "pooled_macro_f1": 0.22525092445853143,
+      "pooled_acc": 0.5102920057443753,
+      "dialect_macro_f1": 0.18311838716826825,
+      "wd_f1": 0.12560386473429952,
+      "hm_f1": 0.17165147308348977,
+      "max_gap_vs_msa": 0.12595724142091902,
+      "old_dri_acc": 0.9809910497212239,
+      "per_dialect_f1": {
+        "MSA": 0.25156110615521854,
+        "Egyptian": 0.1602972399150743,
+        "Levantine": 0.12560386473429952,
+        "Gulf": 0.1950113378684807
+      },
+      "per_dialect_acc": {
+        "MSA": 0.6060171919770774,
+        "Egyptian": 0.3165618448637317,
+        "Levantine": 0.23214285714285715,
+        "Gulf": 0.41346153846153844
+      }
+    },
+    "TFIDF_LR_balanced": {
+      "pooled_macro_f1": 0.6497603086016728,
+      "pooled_acc": 0.6893250359023456,
+      "dialect_macro_f1": 0.5800619914148211,
+      "wd_f1": 0.5098931815912948,
+      "hm_f1": 0.5741423919793887,
+      "max_gap_vs_msa": 0.16135102967352533,
+      "old_dri_acc": 0.9952127995537006,
+      "per_dialect_f1": {
+        "MSA": 0.6712442112648201,
+        "Egyptian": 0.5897845600625223,
+        "Levantine": 0.5098931815912948,
+        "Gulf": 0.5493260127406469
+      },
+      "per_dialect_acc": {
+        "MSA": 0.7292263610315186,
+        "Egyptian": 0.6310272536687631,
+        "Levantine": 0.5535714285714286,
+        "Gulf": 0.5673076923076923
+      },
+      "best_C": 1.0
+    }
+  },
+  "models": {
+    "AraBERTv02": {
+      "n_seeds": 5,
+      "lr": 2e-05,
+      "pooled_macro_f1_mean": 0.7190398573566119,
+      "dialect_macro_f1_mean": 0.6539045570005652,
+      "hm_f1_mean": 0.6463140154375554,
+      "wd_f1_mean": 0.5552288730588429,
+      "max_gap_vs_msa_mean": 0.17255000045494168,
+      "old_dri_acc_mean": 0.9942944801084923,
+      "pooled_macro_f1_std": 0.003394251767980534,
+      "dialect_macro_f1_std": 0.008750347922896357,
+      "hm_f1_std": 0.009944426907346076,
+      "wd_f1_std": 0.02043331874872973,
+      "max_gap_vs_msa_std": 0.022591691944907906,
+      "old_dri_acc_std": 0.001145970908495862,
+      "f1_MSA_mean": 0.7277788735137847,
+      "f1_Egyptian_mean": 0.7035598230618778,
+      "f1_Levantine_mean": 0.5552288730588429,
+      "f1_Gulf_mean": 0.6290506583677552,
+      "f1_MSA_std": 0.00260600725921889,
+      "f1_Egyptian_std": 0.0043590024475942835,
+      "f1_Levantine_std": 0.02043331874872973,
+      "f1_Gulf_std": 0.024946407257510746
+    },
+    "MARBERT": {
+      "n_seeds": 5,
+      "lr": 3e-05,
+      "pooled_macro_f1_mean": 0.7246364413927381,
+      "dialect_macro_f1_mean": 0.6625898838533378,
+      "hm_f1_mean": 0.6561246287763578,
+      "wd_f1_mean": 0.5780061275058406,
+      "max_gap_vs_msa_mean": 0.1523735780652873,
+      "old_dri_acc_mean": 0.9947499716272006,
+      "pooled_macro_f1_std": 0.004128761636545972,
+      "dialect_macro_f1_std": 0.006816883790310796,
+      "hm_f1_std": 0.008226869465331448,
+      "wd_f1_std": 0.01956863480600666,
+      "max_gap_vs_msa_std": 0.018757013094937703,
+      "old_dri_acc_std": 0.00047577919414294105,
+      "f1_MSA_mean": 0.7303797055711281,
+      "f1_Egyptian_mean": 0.717995156010466,
+      "f1_Levantine_mean": 0.5995967954730175,
+      "f1_Gulf_mean": 0.6023878783587401,
+      "f1_MSA_std": 0.00638296210392735,
+      "f1_Egyptian_std": 0.0052149034883241414,
+      "f1_Levantine_std": 0.020276576706534318,
+      "f1_Gulf_std": 0.03905701960776444
+    },
+    "CAMeLBERT-Mix": {
+      "n_seeds": 5,
+      "lr": 3e-05,
+      "pooled_macro_f1_mean": 0.7045478275342794,
+      "dialect_macro_f1_mean": 0.6370606070848174,
+      "hm_f1_mean": 0.6302459922024781,
+      "wd_f1_mean": 0.5590635530247701,
+      "max_gap_vs_msa_mean": 0.15693905700519975,
+      "old_dri_acc_mean": 0.9941880235585352,
+      "pooled_macro_f1_std": 0.00547075639599795,
+      "dialect_macro_f1_std": 0.008721190344799375,
+      "hm_f1_std": 0.0100899724001989,
+      "wd_f1_std": 0.020029312328962698,
+      "max_gap_vs_msa_std": 0.02007284863052937,
+      "old_dri_acc_std": 0.0016393557175776016,
+      "f1_MSA_mean": 0.7160026100299699,
+      "f1_Egyptian_mean": 0.6851388112224788,
+      "f1_Levantine_mean": 0.5862031264112919,
+      "f1_Gulf_mean": 0.5608978806755291,
+      "f1_MSA_std": 0.006949023219146027,
+      "f1_Egyptian_std": 0.006976981869264344,
+      "f1_Levantine_std": 0.010791041703764319,
+      "f1_Gulf_std": 0.023162068435692417
+    },
+    "XLM-R-Base": {
+      "n_seeds": 5,
+      "lr": 3e-05,
+      "pooled_macro_f1_mean": 0.6862329831931127,
+      "dialect_macro_f1_mean": 0.6222336576397979,
+      "hm_f1_mean": 0.6164492548149103,
+      "wd_f1_mean": 0.5435391309254134,
+      "max_gap_vs_msa_mean": 0.16469307582709627,
+      "old_dri_acc_mean": 0.9955026048262997,
+      "pooled_macro_f1_std": 0.003253878508505367,
+      "dialect_macro_f1_std": 0.0061125804170917,
+      "hm_f1_std": 0.00629300618112638,
+      "wd_f1_std": 0.0028446824909486904,
+      "max_gap_vs_msa_std": 0.00571181813145974,
+      "old_dri_acc_std": 0.0005080594556172827,
+      "f1_MSA_mean": 0.7082322067525098,
+      "f1_Egyptian_mean": 0.631349229684772,
+      "f1_Levantine_mean": 0.5435391309254134,
+      "f1_Gulf_mean": 0.6058140631964962,
+      "f1_MSA_std": 0.006859292958762057,
+      "f1_Egyptian_std": 0.009330828893800379,
+      "f1_Levantine_std": 0.0028446824909486904,
+      "f1_Gulf_std": 0.02654597190870191
+    }
+  },
+  "kendall_tau_hm_vs_old_dri": 0.14285714285714285,
+  "kendall_tau_hm_vs_wd": 0.5757575757575758,
+  "n_systems": 22,
+  "majority_old_dri_rank": 22,
+  "majority_hm_rank": 22
+}

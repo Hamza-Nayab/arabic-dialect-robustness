@@ -1,0 +1,36 @@
+{
+  "raw_total": 10547,
+  "raw_cross_split_leak_texts": 132,
+  "unique_total": 10132,
+  "train": 6813,
+  "dev": 1203,
+  "test": 2089,
+  "maghrebi": 27,
+  "test_by_dialect_label": {
+    "MSA": {
+      "0": 370,
+      "1": 846,
+      "2": 180
+    },
+    "Egyptian": {
+      "0": 238,
+      "1": 151,
+      "2": 88
+    },
+    "Levantine": {
+      "0": 59,
+      "1": 26,
+      "2": 27
+    },
+    "Gulf": {
+      "0": 42,
+      "1": 43,
+      "2": 19
+    }
+  },
+  "train_label_counts": {
+    "0": 2287,
+    "1": 3426,
+    "2": 1100
+  }
+}

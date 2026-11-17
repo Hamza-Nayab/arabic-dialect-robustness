@@ -1,0 +1,56 @@
+{
+ "test_with_neighbour_ge_0.5": 13,
+ "test_with_neighbour_ge_0.7": 8,
+ "test_with_neighbour_ge_0.8": 8,
+ "test_with_neighbour_ge_0.9": 4,
+ "by_dialect_ge_0.7": {
+  "MSA": 5,
+  "Egyptian": 1,
+  "Levantine": 0,
+  "Gulf": 2
+ },
+ "same_label_rate_ge_0.7": 1.0,
+ "pid_rescored_without_ge_0.7": {
+  "AraBERTv02-Twitter": {
+   "pooled_macro_f1": 0.8778,
+   "hm_f1": 0.8514,
+   "wd_f1": 0.8032
+  },
+  "AraBERTv02": {
+   "pooled_macro_f1": 0.8714,
+   "hm_f1": 0.8549,
+   "wd_f1": 0.7882
+  },
+  "AraELECTRA": {
+   "pooled_macro_f1": 0.8444,
+   "hm_f1": 0.8246,
+   "wd_f1": 0.7834
+  },
+  "ARBERTv2": {
+   "pool
+{
+ "did_madar6": {
+  "agreement": 0.5610139516604441,
+  "cohen_kappa": 0.3636926384117024,
+  "per_gold_dialect_agreement": {
+   "Egyptian": 0.6627835683629675,
+   "Gulf": 0.7075812274368231,
+   "Levantine": 0.25,
+   "MSA": 0.5290114613180515,
+   "Maghrebi": 0.42857142857142855
+  }
+ },
+ "did_nadi_region": {
+  "agreement": 0.5764040052242055,
+  "cohen_kappa": 0.3431854395757793,
+  "per_gold_dialect_agreement": {
+   "Egyptian": 0.5879828326180258,
+   "Gulf": 0.5776173285198556,
+   "Levantine": 0.5027173913043478,
+   "Maghrebi": 0.9523809523809523
+  }
+ },
+ "test_agreeing_counts": {},
+ "pid_rescored_on_madar6_agreeing_test": {}
+}
+[STEP 7b PASSED]

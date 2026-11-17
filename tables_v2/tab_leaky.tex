@@ -1,0 +1,11 @@
+\begin{tabular}{lcc|cc|cc|cc}
+\toprule
+ & \multicolumn{2}{c|}{\textbf{Leaky train, raw test}} & \multicolumn{2}{c|}{\textbf{Leaky train, clean test}} & \multicolumn{2}{c|}{\textbf{Clean train, clean test}} & \multicolumn{2}{c}{\textbf{Differences (HM)}} \\
+\textbf{Encoder} & Pooled & HM & Pooled & HM & Pooled & HM & Reported$-$true & Leaky$-$clean (clean test) \\
+\midrule
+AraBERTv02 & 0.876 & 0.859 & 0.877 & 0.863 & 0.872 & 0.855 & +0.004 & +0.008 {\scriptsize[-0.012, +0.028]} \\
+MARBERT & 0.876 & 0.865 & 0.877 & 0.868 & 0.875 & 0.861 & +0.004 & +0.007 {\scriptsize[-0.012, +0.030]} \\
+CAMeLBERT-Mix & 0.859 & 0.856 & 0.861 & 0.861 & 0.858 & 0.861 & -0.005 & -0.000 {\scriptsize[-0.018, +0.017]} \\
+XLM-R-Base & 0.809 & 0.776 & 0.810 & 0.779 & 0.803 & 0.772 & +0.004 & +0.007 {\scriptsize[-0.019, +0.034]} \\
+\bottomrule
+\end{tabular}
