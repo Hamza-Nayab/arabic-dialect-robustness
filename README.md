@@ -21,8 +21,8 @@ We evaluate how evenly 11 fine-tuned transformer encoders (AraBERTv02, AraBERTv0
 
 ## Repository Structure
 
-* `main.tex`, `references.tex`, `main.pdf` : LaTeX source, bibliography and compiled manuscript.
-* `tables_v2/` and `figures_v2/` : All 21 LaTeX tables, generated prose macros and 5 vector PDF figures.
+The complete manuscript PDF and LaTeX source are archived on Zenodo, while this GitHub repository hosts the reproduction pipeline, sanitized splits and multi-seed prediction arrays:
+
 * `experiments/` : End-to-end Python pipeline for data deduplication, encoder fine-tuning, linear probing, LLM prompting, hierarchical bootstrap estimation, NumPyro MCMC mixed modeling and artifact generation.
 * `experiments/outputs_v2/` : Sanitized split metadata (internal row indices, split assignments and labels with raw tweet text removed in compliance with data redistribution policies), multi-seed prediction arrays (`.npy`) and aggregated statistical summaries.
 
