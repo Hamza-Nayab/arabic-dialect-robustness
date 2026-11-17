@@ -1,6 +1,6 @@
 # Dialect-Level Generalization of Arabic Sentiment Classifiers: An Exact-Duplicate-Free, Uncertainty-Aware Evaluation of Encoders and LLMs
 
-**Authors:** Malik Mir Hamza Nayab, Syed Ghazi Raza and Baseera Hanif  
+**Authors:** Malik Mir Hamza Nayab, Syed Ghazi Raza and Baseera Bibi  
 **Affiliation:** Department of Computer Science, COMSATS University Islamabad, Abbottabad Campus, Abbottabad, Pakistan  
 **Repository:** [https://github.com/Hamza-Nayab/arabic-dialect-robustness](https://github.com/Hamza-Nayab/arabic-dialect-robustness)  
 **License:** MIT (Code) / CC BY 4.0 (Manuscript and Derived Split Metadata)
